@@ -1,0 +1,65 @@
+Obiective Întâlnire 6
+
+● Să înțelegem programarea bazată pe obiecte
+● Ce este o clasă?
+● Ce este un obiect?
+● Ce sunt atributele/field-urile?
+● Ce sunt metodele?
+● Ce este un constructor?
+● Cum importăm clase din alte fișiere?
+
+Ce este o clasă?
+
+● O clasă este o rețetă (blueprint) pentru crearea obiectelor
+● Ea conține elemente descriptive: atribute/fields
+(practic niste variabile)
+● Conține acțiuni posibile: metode (practic niște funcții)
+● Self - este instanță clasei, ajută funcția să aibă acces
+la atributele clasei
+● Deci o clasă este doar un concept, cum ar fi o rețetă pentru
+paste carbonara. Faptul că există rețetă nu înseamnă că
+există și pastele.
+● Dar aceeași rețetă o putem folosi ca să facem 1, 2, 100
+de porții carbonara.
+
+Ce este un obiect?
+
+● Obiect = instanță a clasei
+● Toate obiectele de tip Car vor avea același comportament
+
+○ Aceleași atribute
+○ Aceleași metode
+○ Atributele pot suferi modificări după inițializarea obiectului
+○ Ex: o mașină se poate vopsi într-o culoare nouă
+
+● Putem crea oricâte obiecte de tip Car dorim
+● Acesta e și avantajul OOP: write once, use n times
+
+Ce este un constructor?
+
+● Constructor se asigură că la crearea obiectelor setăm
+niște date fără de care obiectul nu are sens să existe
+
+● Practic atribuie valori atributelor
+● Dacă ne gândim la un formular, ar fi acele field-uri cu *
+
+care sunt obligatorii
+
+● Dacă prin constructor suntem obligați să dăm model și
+color, nu am putea să instanțiem obiecte de tip
+Car fără să dăm aceste valori obligatorii
+
+Cum importăm clase din alte fișiere?
+
+● from folder.folder.fișier import nume_clasă
+
+Întrebări & curiozități?
+
+j
+
+Întrebări de interviu:
+➢ Ce este un constructor?
+➢ Care este diferența dintre o clasă și un
+obiect?
+➢ La ce ne ajută să importăm clase din alte
+fișiere?
